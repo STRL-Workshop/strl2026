@@ -1,0 +1,24 @@
+{{ $person := .person }}
+{{ $class := .class }}
+{{ $placeholderClass := .placeholderClass }}
+<div class="{{ $class }}">
+  {{ if $person.image }}
+  {{ $styleParts := slice }}
+  {{ with $person.image_position }}
+  {{ $positionParts := split . " " }}
+  {{ if ge (len $positionParts) 2 }}
+  {{ $styleParts = $styleParts | append (printf "--profile-center-x: %s" (index $positionParts 0)) }}
+  {{ $styleParts = $styleParts | append (printf "--profile-center-y: %s" (index $positionParts 1)) }}
+  {{ else }}
+  {{ $styleParts = $styleParts | append (printf "--profile-center-x: %s" .) }}
+  {{ $styleParts = $styleParts | append (printf "--profile-center-y: %s" .) }}
+  {{ end }}
+  {{ end }}
+  {{ with $person.image_scale }}
+  {{ $styleParts = $styleParts | append (printf "--profile-scale: %v" .) }}
+  {{ end }}
+  <img src="{{ $person.image | absURL }}" alt="{{ $person.name }}" loading="lazy"{{ if gt (len $styleParts) 0 }} {{ printf "style=%q" (printf "%s;" (delimit $styleParts "; ")) | safeHTMLAttr }}{{ end }}>
+  {{ else }}
+  <div class="{{ $placeholderClass }}">{{ substr $person.name 0 1 }}</div>
+  {{ end }}
+</div>

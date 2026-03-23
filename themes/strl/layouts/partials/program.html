@@ -1,0 +1,49 @@
+<section class="section" id="program">
+  <div class="container">
+    <h2 class="section-title">Workshop Program</h2>
+
+    <!-- Keynote Speakers -->
+    {{ with .Site.Data.speakers }}
+    <h3 class="subsection-title">Keynote Speakers</h3>
+    <div class="speakers-grid">
+      {{ range . }}
+      <div class="speaker-card">
+        {{ partial "profile-photo.html" (dict "person" . "class" "speaker-photo" "placeholderClass" "speaker-photo-placeholder") }}
+        <div class="speaker-info">
+          <h4>{{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h4>
+          <p class="speaker-affiliation">{{ .affiliation }}</p>
+          {{ with .title }}<p class="speaker-talk"><strong>{{ . }}</strong></p>{{ end }}
+          {{ with .bio }}<p class="speaker-bio">{{ . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Schedule -->
+    <h3 class="subsection-title">Tentative Schedule</h3>
+    <div class="schedule-table-wrapper">
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Site.Data.schedule }}
+          <tr class="schedule-row schedule-{{ .type }}">
+            <td class="schedule-time">{{ .time }}</td>
+            <td class="schedule-activity">
+              <span class="schedule-title">{{ .title }}</span>
+              {{ with .speaker }}<span class="schedule-speaker">{{ . }}</span>{{ end }}
+              {{ with .details }}<span class="schedule-details">{{ . }}</span>{{ end }}
+            </td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="schedule-note">Times may be adjusted to match the official IJCAI-ECAI 2026 workshop timetable.</p>
+  </div>
+</section>

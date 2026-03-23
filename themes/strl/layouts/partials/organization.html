@@ -1,0 +1,50 @@
+<section class="section section-alt" id="organization">
+  <div class="container">
+    <h2 class="section-title">Organization</h2>
+
+    <!-- Organizing Committee -->
+    <h3 class="subsection-title">Organizing Committee</h3>
+    <div class="organizers-grid">
+      {{ range .Site.Data.organizers }}
+      <div class="organizer-card">
+        {{ partial "profile-photo.html" (dict "person" . "class" "organizer-photo" "placeholderClass" "organizer-photo-placeholder") }}
+        <div class="organizer-info">
+          <h4>{{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h4>
+          <p class="organizer-role">{{ .role }}</p>
+          <p class="organizer-affiliation">{{ .affiliation }}</p>
+          {{ with .bio }}<p class="organizer-bio">{{ . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <!-- Advisory Committee -->
+    {{ with .Site.Data.advisory }}
+    <h3 class="subsection-title">Advisory Committee</h3>
+    <div class="organizers-grid">
+      {{ range . }}
+      <div class="organizer-card">
+        {{ partial "profile-photo.html" (dict "person" . "class" "organizer-photo" "placeholderClass" "organizer-photo-placeholder") }}
+        <div class="organizer-info">
+          <h4>{{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h4>
+          <p class="organizer-affiliation">{{ .affiliation }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Program Committee -->
+    {{ with .Site.Data.pc }}
+    <h3 class="subsection-title">Program Committee</h3>
+    <ul class="pc-list">
+      {{ range . }}
+      <li>
+        {{ if .homepage }}<a href="{{ .homepage }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }},
+        <span class="pc-affiliation">{{ .affiliation }}</span>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>

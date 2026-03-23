@@ -1,0 +1,20 @@
+baseURL = "https://strl-workshop.github.io/strl2026/"
+languageCode = "en-us"
+title = "STRL 2026 — 5th International Workshop on Spatio-Temporal Reasoning and Learning"
+theme = "strl"
+
+[params]
+  workshopName = "STRL 2026"
+  workshopFullName = "5th International Workshop on Spatio-Temporal Reasoning and Learning"
+  workshopDate = "August 2026"
+  venue = "IJCAI-ECAI 2026"
+  venueCity = "Bremen, Germany"
+  venueURL = "https://ijcai-26.org/"
+  contactEmail = "jae.hee.lee@uni-hamburg.de"
+  submissionURL = ""
+  description = "STRL 2026 aims to strengthen the bridge between Knowledge Representation and Reasoning (KRR) and Machine Learning (ML) communities through work on neuro-symbolic methods, commonsense reasoning, language and vision grounding, world models, benchmarks, and explainability."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

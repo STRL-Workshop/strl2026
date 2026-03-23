@@ -1,0 +1,47 @@
+<section class="section section-alt" id="cfp">
+  <div class="container">
+    <h2 class="section-title">Call for Papers</h2>
+
+    <!-- Topics -->
+    <h3 class="subsection-title">Topics of Interest</h3>
+    <p class="topics-intro">We invite submissions related to the integration of spatial and temporal reasoning with machine learning, including but not limited to:</p>
+    <ul class="topics-list">
+      {{ range .Site.Data.topics }}
+      <li>{{ .topic }}</li>
+      {{ end }}
+    </ul>
+    <p class="topics-note"><strong>Keywords:</strong> Spatio-Temporal Reasoning, Neuro-Symbolic AI, Multimodal Learning, Commonsense Reasoning, World Models, Explainable AI, Benchmarks and Evaluation, Continual and Compositional Generalization</p>
+
+    <!-- Submission Guidelines -->
+    <h3 class="subsection-title">Submission Guidelines</h3>
+    <div class="submission-info">
+      <p>Papers should be formatted according to the CEUR-ART style formatting guidelines and submitted as a single PDF file.</p>
+      <p>We welcome submissions across the full spectrum of theoretical and practical work including research ideas, methods, tools, simulations, applications or demos, practical evaluations, and surveys.</p>
+      <ul>
+        <li><strong>Short papers</strong> (2 pages, excluding references and appendices): considered for a short presentation.</li>
+        <li><strong>Regular papers</strong> (4–7 pages, excluding references and appendices): considered for a regular presentation.</li>
+      </ul>
+      <p>All papers will be peer-reviewed in a single-blind process and assessed based on their novelty, technical quality, potential impact, clarity, and reproducibility (when applicable).</p>
+      <p>Extended abstracts of published papers are welcome, but they should demonstrate their close link to the topic of the workshop.</p>
+      {{ if .Site.Params.submissionURL }}
+      <p><a href="{{ .Site.Params.submissionURL }}" class="btn btn-primary">Submit Your Paper</a></p>
+      {{ else }}
+      <p class="tba-notice">Submission link will be available soon.</p>
+      {{ end }}
+      <p>All questions about submissions should be emailed to <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>.</p>
+    </div>
+
+    <!-- Important Dates -->
+    <h3 class="subsection-title">Important Dates</h3>
+    <div class="dates-grid">
+      {{ range .Site.Data.dates }}
+      <div class="date-item">
+        <div class="date-label">{{ .label }}</div>
+        <div class="date-value{{ if .struck }} date-struck{{ end }}">{{ .date }}</div>
+        {{ if .newDate }}<div class="date-value date-new">{{ .newDate }}</div>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+    <p class="dates-note">All deadlines are <strong>AoE</strong> (Anywhere on Earth).</p>
+  </div>
+</section>

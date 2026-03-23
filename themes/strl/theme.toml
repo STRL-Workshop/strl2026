@@ -1,0 +1,9 @@
+name = "STRL Workshop Theme"
+license = "MIT"
+licenselink = ""
+description = "A minimal, modern theme for the STRL workshop website."
+tags = ["academic", "workshop", "single-page"]
+min_version = "0.100.0"
+
+[author]
+  name = "STRL Workshop Organizers"

@@ -1,0 +1,25 @@
+<section class="section" id="introduction">
+  <div class="container">
+    <h2 class="section-title">About the Workshop</h2>
+    <div class="intro-content">
+      {{ .Content }}
+    </div>
+    <div class="intro-highlights">
+      <div class="highlight-card">
+        <div class="highlight-icon">&#128197;</div>
+        <h3>{{ .Site.Params.workshopDate }}</h3>
+        <p>Workshop Date</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">&#127758;</div>
+        <h3>{{ .Site.Params.venueCity }}</h3>
+        <p>{{ .Site.Params.venue }}</p>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-icon">&#128214;</div>
+        <h3>Full Day</h3>
+        <p>In-Person Workshop</p>
+      </div>
+    </div>
+  </div>
+</section>

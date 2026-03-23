@@ -1,0 +1,29 @@
+# Optional photo framing:
+# image_position: "50% 50%"
+# image_scale: 1.20
+- name: "Dr. Jae Hee Lee"
+  role: "Primary Contact"
+  affiliation: "University of Hamburg, Germany"
+  email: "jae.hee.lee@uni-hamburg.de"
+  homepage: "https://jaeheelee.de"
+  image: "images/profiles/jae-hee-lee.webp"
+  image_position: "50% 50%"
+  image_scale: 1.30
+  
+- name: "Prof. Jakob Suchan"
+  role: "Co-Organizer"
+  affiliation: "Constructor University Bremen, Germany"
+  email: "jsuchan@constructor.university"
+  homepage: "https://constructor.university/faculty-member/jakob-suchan"
+  image: "images/profiles/jakob-suchan.webp"
+  image_position: "45% 40%"
+  image_scale: 1.35
+  
+- name: "Prof. Xun Gong"
+  role: "Co-Organizer"
+  affiliation: "Southwest Jiaotong University, China"
+  email: "xgong@swjtu.edu.cn"
+  homepage: "https://faculty.swjtu.edu.cn/gongxun/en/index.htm"
+  image: "images/profiles/xun-gong.webp"
+  image_position: "50% 40%"
+  image_scale: 1.6
