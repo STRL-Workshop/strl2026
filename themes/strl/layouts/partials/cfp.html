@@ -13,29 +13,12 @@
     <p class="topics-note"><strong>Keywords:</strong> Spatio-Temporal Reasoning, Neuro-Symbolic AI, Multimodal Learning, Commonsense Reasoning, World Models, Explainable AI, Benchmarks and Evaluation, Continual and Compositional Generalization</p>
 
     <!-- Submission Guidelines -->
-    {{ $submission := .Site.Data.submission }}
     <h3 class="subsection-title">Submission Guidelines</h3>
+    {{ with .Site.GetPage "/submission-guidelines" }}
     <div class="submission-info">
-      {{ range $submission.paragraphs }}
-      <p>{{ . }}</p>
-      {{ end }}
-      {{ with $submission.paper_types }}
-      <ul>
-        {{ range . }}
-        <li><strong>{{ .label }}</strong> {{ .details }}</li>
-        {{ end }}
-      </ul>
-      {{ end }}
-      {{ range $submission.notes }}
-      <p>{{ . }}</p>
-      {{ end }}
-      {{ if .Site.Params.submissionURL }}
-      <p><a href="{{ .Site.Params.submissionURL }}" class="btn btn-primary">{{ default "Submit Your Paper" $submission.button_label }}</a></p>
-      {{ else }}
-      <p class="tba-notice">{{ default "Submission link will be available soon." $submission.submission_notice }}</p>
-      {{ end }}
-      <p>{{ default "All questions about submissions should be emailed to" $submission.contact_text }} <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>.</p>
+      {{ .Content }}
     </div>
+    {{ end }}
 
     <!-- Important Dates -->
     <h3 class="subsection-title">Important Dates</h3>

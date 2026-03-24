@@ -1,0 +1,7 @@
+{{ $label := or (.Get "label") .Page.Params.button_label "Submit Your Paper" }}
+{{ $notice := or (.Get "notice") .Page.Params.submission_notice "Submission link will be available soon." }}
+{{ with .Site.Params.submissionURL }}
+<p><a href="{{ . }}" class="btn btn-primary">{{ $label }}</a></p>
+{{ else }}
+<p class="tba-notice">{{ $notice }}</p>
+{{ end }}
