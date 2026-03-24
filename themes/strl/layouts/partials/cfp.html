@@ -13,22 +13,28 @@
     <p class="topics-note"><strong>Keywords:</strong> Spatio-Temporal Reasoning, Neuro-Symbolic AI, Multimodal Learning, Commonsense Reasoning, World Models, Explainable AI, Benchmarks and Evaluation, Continual and Compositional Generalization</p>
 
     <!-- Submission Guidelines -->
+    {{ $submission := .Site.Data.submission }}
     <h3 class="subsection-title">Submission Guidelines</h3>
     <div class="submission-info">
-      <p>Papers should be formatted according to the CEUR-ART style formatting guidelines and submitted as a single PDF file.</p>
-      <p>We welcome submissions across the full spectrum of theoretical and practical work including research ideas, methods, tools, simulations, applications or demos, practical evaluations, and surveys.</p>
-      <ul>
-        <li><strong>Short papers</strong> (2 pages, excluding references and appendices): considered for a short presentation.</li>
-        <li><strong>Regular papers</strong> (4–7 pages, excluding references and appendices): considered for a regular presentation.</li>
-      </ul>
-      <p>All papers will be peer-reviewed in a single-blind process and assessed based on their novelty, technical quality, potential impact, clarity, and reproducibility (when applicable).</p>
-      <p>Extended abstracts of published papers are welcome, but they should demonstrate their close link to the topic of the workshop.</p>
-      {{ if .Site.Params.submissionURL }}
-      <p><a href="{{ .Site.Params.submissionURL }}" class="btn btn-primary">Submit Your Paper</a></p>
-      {{ else }}
-      <p class="tba-notice">Submission link will be available soon.</p>
+      {{ range $submission.paragraphs }}
+      <p>{{ . }}</p>
       {{ end }}
-      <p>All questions about submissions should be emailed to <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>.</p>
+      {{ with $submission.paper_types }}
+      <ul>
+        {{ range . }}
+        <li><strong>{{ .label }}</strong> {{ .details }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ range $submission.notes }}
+      <p>{{ . }}</p>
+      {{ end }}
+      {{ if .Site.Params.submissionURL }}
+      <p><a href="{{ .Site.Params.submissionURL }}" class="btn btn-primary">{{ default "Submit Your Paper" $submission.button_label }}</a></p>
+      {{ else }}
+      <p class="tba-notice">{{ default "Submission link will be available soon." $submission.submission_notice }}</p>
+      {{ end }}
+      <p>{{ default "All questions about submissions should be emailed to" $submission.contact_text }} <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>.</p>
     </div>
 
     <!-- Important Dates -->

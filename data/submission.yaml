@@ -1,0 +1,17 @@
+paragraphs:
+  - "Papers should be formatted according to the CEUR-ART style formatting guidelines and submitted as a single PDF file."
+  - "We welcome submissions across the full spectrum of theoretical and practical work including research ideas, methods, tools, simulations, applications or demos, practical evaluations, and surveys."
+
+paper_types:
+  - label: "Short papers"
+    details: "(2 pages, excluding references and appendices): considered for a short presentation."
+  - label: "Regular papers"
+    details: "(4–7 pages, excluding references and appendices): considered for a regular presentation."
+
+notes:
+  - "All papers will be peer-reviewed in a single-blind process and assessed based on their novelty, technical quality, potential impact, clarity, and reproducibility (when applicable)."
+  - "Extended abstracts of published papers are welcome, but they should demonstrate their close link to the topic of the workshop."
+
+button_label: "Submit Your Paper"
+submission_notice: "Submission link will be available soon."
+contact_text: "All questions about submissions should be emailed to"
