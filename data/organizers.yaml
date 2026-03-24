@@ -2,7 +2,6 @@
 # image_position: "50% 50%"
 # image_scale: 1.20
 - name: "Jae Hee Lee"
-  role: "Co-Organizer"
   affiliation: "University of Hamburg, Germany"
   email: "jae.hee.lee@uni-hamburg.de"
   homepage: "https://jaeheelee.de"
@@ -11,7 +10,6 @@
   image_scale: 1.30
   
 - name: "Jakob Suchan"
-  role: "Co-Organizer"
   affiliation: "Constructor University Bremen, Germany"
   email: "jsuchan@constructor.university"
   homepage: "https://constructor.university/faculty-member/jakob-suchan"
@@ -20,7 +18,6 @@
   image_scale: 1.35
   
 - name: "Xun Gong"
-  role: "Co-Organizer"
   affiliation: "Southwest Jiaotong University, China"
   email: "xgong@swjtu.edu.cn"
   homepage: "https://faculty.swjtu.edu.cn/gongxun/en/index.htm"
