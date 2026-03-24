@@ -176,8 +176,8 @@ a:hover {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: url('../assets/banner.jpg') center/cover no-repeat;
-  opacity: 0.12;
+  background: url('../images/backgrounds/bremen-rathaus.webp') center 68% / cover no-repeat;
+  opacity: 0.22;
   pointer-events: none;
 }
 
@@ -707,6 +707,11 @@ a:hover {
   columns: 2;
   column-gap: 2rem;
   list-style: none;
+}
+
+.pc-tba {
+  color: var(--color-text-muted);
+  font-style: italic;
 }
 
 .pc-list li {

@@ -1,28 +1,28 @@
 # Optional photo framing:
 # image_position: "50% 50%"
 # image_scale: 1.20
-- name: "Junior Prof. Michael Sioutis"
+- name: "Michael Sioutis"
   affiliation: "University of Montpellier, France"
   homepage: "https://msioutis.gitlab.io"
   image: "images/profiles/michael-sioutis.webp"
   image_position: "50% 40%"
   image_scale: 1.6
 
-- name: "Assoc. Prof. Zhiguo Long"
+- name: "Zhiguo Long"
   affiliation: "Southwest Jiaotong University, China"
   homepage: "https://zhiguolong.github.io"
   image: "images/profiles/zhiguo-long.webp"
   image_position: "48% 45%"
   image_scale: 1.2
 
-- name: "Assoc. Prof. Parisa Kordjamshidi"
+- name: "Parisa Kordjamshidi"
   affiliation: "Michigan State University, US"
   homepage: "https://www.cse.msu.edu/~kordjams/"
   image: "images/profiles/parisa-kordjamshidi.webp"
   image_position: "52% 45%"
   image_scale: 1.2
 
-- name: "Prof. Mehul Bhatt"
+- name: "Mehul Bhatt"
   affiliation: "Örebro University, Sweden"
   homepage: "https://www.mehulbhatt.org"
   image: "images/profiles/mehul-bhatt.webp"

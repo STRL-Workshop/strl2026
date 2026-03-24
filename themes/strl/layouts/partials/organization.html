@@ -35,8 +35,8 @@
     {{ end }}
 
     <!-- Program Committee -->
-    {{ with .Site.Data.pc }}
     <h3 class="subsection-title">Program Committee</h3>
+    {{ with .Site.Data.pc }}
     <ul class="pc-list">
       {{ range . }}
       <li>
@@ -45,6 +45,8 @@
       </li>
       {{ end }}
     </ul>
+    {{ else }}
+    <p class="pc-tba">TBA</p>
     {{ end }}
   </div>
 </section>
