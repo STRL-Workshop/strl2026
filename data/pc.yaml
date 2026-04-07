@@ -1,75 +1,15 @@
-# - name: "Eleni Tsalapati"
-#   affiliation: "National and Kapodistrian University of Athens, Greece"
-#   homepage: ""
+- name: "Nassim Belcheri"
+  affiliation: "Simula Research Laboratory, Oslo, Norway"
+  homepage: "https://www.simula.no/people/nassim"
 
-# - name: "Kazuko Takahashi"
-#   affiliation: "Kwansei Gakuin University, Nishinomiya, Japan"
-#   homepage: ""
+- name: "John Stell"
+  affiliation: "University of Leeds, UK"
+  homepage: "https://eps.leeds.ac.uk/computing/staff/258/dr-john-stell"
 
-# - name: "Ling Cai"
-#   affiliation: "ByteDance Inc."
-#   homepage: ""
+- name: "David Wong"
+  affiliation: "University of Leeds, UK"
+  homepage: "https://medicinehealth.leeds.ac.uk/medicine/staff/9808/dr-david-ong"
 
-# - name: "Yuan Yuan"
-#   affiliation: "Tsinghua University, Beijing, China"
-#   homepage: ""
-
-# - name: "Anthony (Tony) G Cohn"
-#   affiliation: "University of Leeds, UK"
-#   homepage: "https://eps.leeds.ac.uk/computing/staff/76/professor-anthony-tony-g-cohn-freng-ceng-citp"
-
-# - name: "Costas Mavromatis"
-#   affiliation: "University of Minnesota, US"
-#   homepage: ""
-
-# - name: "Fan Zhang"
-#   affiliation: "Peking University, China"
-#   homepage: ""
-
-# - name: "Jie Feng"
-#   affiliation: "Tsinghua University, Beijing, China"
-#   homepage: "https://vonfeng.github.io/"
-
-# - name: "Matteo Zavatteri"
-#   affiliation: "University of Padua, Italy"
-#   homepage: ""
-
-# - name: "Nassim Belmecheri"
-#   affiliation: "Simula Research Laboratory, Oslo, Norway"
-#   homepage: "https://www.simula.no/people/nassim"
-
-# - name: "Renhe Jiang"
-#   affiliation: "University of Tokyo, Japan"
-#   homepage: ""
-
-# - name: "Rui Zhu"
-#   affiliation: "University of Bristol, UK"
-#   homepage: ""
-
-# - name: "Seppe vanden Broucke"
-#   affiliation: "University of Ghent & KU Leuven, Belgium"
-#   homepage: ""
-
-# - name: "Shufeng Kong"
-#   affiliation: "Sun Yat-sen University, Guangdong, China"
-#   homepage: ""
-
-# - name: "Shyamanta M. Hazarika"
-#   affiliation: "Indian Institute of Technology Guwahati, India"
-#   homepage: ""
-
-# - name: "Tianrui Li"
-#   affiliation: "Southwest Jiaotong University, Chengdu, China"
-#   homepage: ""
-
-# - name: "Youcef Djenouri"
-#   affiliation: "University of South-Eastern Norway, Norway"
-#   homepage: ""
-
-# - name: "Weiming Huang"
-#   affiliation: "Nanyang Technological University, Singapore"
-#   homepage: ""
-
-# - name: "Zied Bouraoui"
-#   affiliation: "Artois University, Arras, France"
-#   homepage: ""
+- name: "More PC members to be announced soon..."
+  affiliation: ""
+  homepage: ""
