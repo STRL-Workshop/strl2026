@@ -1,6 +1,6 @@
 # STRL 2026 Website
 
-Website for the **5th International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2026)**, co-located with [IJCAI-ECAI 2026](https://ijcai-26.org/) in Bremen, Germany.
+Website for the **5th International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2026)**, co-located with [IJCAI-ECAI 2026](https://2026.ijcai.org/) in Bremen, Germany.
 
 Built with [Hugo](https://gohugo.io/).
 
