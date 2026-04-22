@@ -11,7 +11,7 @@ theme = "strl"
   venueCity = "Bremen, Germany"
   venueURL = "https://2026.ijcai.org/"
   contactEmail = "jae.hee.lee@uni-hamburg.de"
-  submissionURL = ""
+  submissionURL = "https://chairingtool.com/conferences/strl2026/main-track?role=author"
   description = "STRL 2026 aims to strengthen the bridge between Knowledge Representation and Reasoning (KRR) and Machine Learning (ML) communities through work on neuro-symbolic methods, commonsense reasoning, language and vision grounding, world models, benchmarks, and explainability."
 
 [markup]
