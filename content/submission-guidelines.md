@@ -28,4 +28,4 @@ While we encourage the use of LLMs for brainstorming and drafting, we require th
 
 {{< submission-cta >}}
 
-All questions about submissions should be emailed to {{< contact-email >}}.
+<!-- All questions about submissions should be emailed to {{< contact-email >}}. -->
