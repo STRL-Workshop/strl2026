@@ -6,7 +6,7 @@ theme = "strl"
 [params]
   workshopName = "STRL 2026"
   workshopFullName = "5th International Workshop on Spatio-Temporal Reasoning and Learning"
-  workshopDate = "August 2026"
+  workshopDate = "August 15, 16, or 17 (TBA), 2026"
   venue = "IJCAI-ECAI 2026"
   venueCity = "Bremen, Germany"
   venueURL = "https://2026.ijcai.org/"
