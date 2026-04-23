@@ -29,7 +29,7 @@ The workshop is non-archival, i.e., authors are allowed to submit work that is u
 
 #### Review policy
 All papers will be peer-reviewed in a double-blind process and assessed based on their novelty, technical quality, potential impact, clarity, and reproducibility (when applicable).
-At least one author per submission must commit to reviewing for the workshop. You will need to designate the reviewing author(s) on CharingTool. Submissions without a nominated reviewer may be desk-rejected.
+At least one author per submission must commit to reviewing for the workshop. You will need to designate the reviewing author(s) on charingtool. Submissions without a nominated reviewer may be desk-rejected.
 
 If you would like to become a reviewer for this workshop, please let us know.
 
