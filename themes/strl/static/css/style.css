@@ -714,6 +714,13 @@ a:hover {
   font-style: italic;
 }
 
+.pc-note {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
 .pc-list li {
   padding: 0.4rem 0;
   font-size: 0.925rem;

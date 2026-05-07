@@ -3,20 +3,22 @@
     <h2 class="section-title">Venue</h2>
     <div class="venue-content">
       <div class="venue-info">
-        <p>The workshop will take place in <strong>{{ .Site.Params.venueCity }}</strong>, co-located with <a href="{{ .Site.Params.venueURL }}">{{ .Site.Params.venue }}</a>.</p>
-        <p>Detailed venue information will be announced closer to the event.</p>
+        <p><strong>{{ .Site.Params.workshopName }}</strong> is co-located with <a href="{{ .Site.Params.venueURL }}">{{ .Site.Params.venue }}</a>. The IJCAI-ECAI 2026 workshops and tutorials will take place from <strong>August 15 to 17, 2026</strong> at <a href="{{ .Site.Params.venueDetailsURL }}">{{ .Site.Params.workshopVenueName }}</a>.</p>
+        <p>The exact STRL date, room, and final local logistics remain <strong>TBA</strong>.</p>
+        <p><strong>Address:</strong> {{ .Site.Params.workshopVenueName }} ({{ .Site.Params.workshopVenueArea }}), {{ .Site.Params.workshopVenueAddress }}. See the <a href="{{ .Site.Params.campusMapURL }}">University of Bremen campus map</a>.</p>
+        <p><strong>Travel:</strong> tram line 6 connects Bremen Airport and Bremen Central Station with the <em>Universität / Zentralbereich</em> stop.</p>
       </div>
       <div class="venue-map">
         <iframe
-          title="Bremen, Germany map"
+          title="University of Bremen campus map"
           width="100%"
           height="350"
           style="border:0; border-radius: 8px;"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=8.7400%2C53.0500%2C8.8700%2C53.1100&layer=mapnik&marker=53.0793%2C8.8017">
+          src="https://www.openstreetmap.org/export/embed.html?bbox=8.8497%2C53.1005%2C8.8737%2C53.1125&layer=mapnik&marker=53.10651%2C8.861675">
         </iframe>
-        <p class="venue-map-link"><a href="https://www.openstreetmap.org/?#map=13/53.0793/8.8017" target="_blank" rel="noopener">View Larger Map</a></p>
+        <p class="venue-map-link"><a href="https://www.openstreetmap.org/?mlat=53.10651&mlon=8.861675#map=16/53.10651/8.861675" target="_blank" rel="noopener">View University of Bremen on OpenStreetMap</a></p>
       </div>
     </div>
   </div>

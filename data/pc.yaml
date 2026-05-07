@@ -1,15 +1,35 @@
-- name: "Nassim Belcheri"
-  affiliation: "Simula Research Laboratory, Oslo, Norway"
+- name: "Nassim Belmecheri"
+  affiliation: "Simula Research Laboratory, Norway"
   homepage: "https://www.simula.no/people/nassim"
+
+- name: "Xiaoyu Ge"
+  affiliation: "Australian National University, Australia"
+  homepage: "https://comp.anu.edu.au/people/xiaoyu-ge/"
+
+- name: "Yameng Guo"
+  affiliation: "Ghent University, Belgium"
+  homepage: "https://scholar.google.com/citations?hl=en&user=0ror4xoAAAAJ&view_op=list_works&sortby=pubdate"
+
+- name: "Fangjun Li"
+  affiliation: "University of Manchester, UK"
+  homepage: "https://corolab.uk/fangjun-li/"
+
+- name: "Tanawan Premsri"
+  affiliation: "Michigan State University, USA"
+  homepage: "https://premsrit.github.io/"
 
 - name: "John Stell"
   affiliation: "University of Leeds, UK"
   homepage: "https://eps.leeds.ac.uk/computing/staff/258/dr-john-stell"
 
+- name: "Seppe vanden Broucke"
+  affiliation: "Ghent University, Belgium"
+  homepage: "https://www.seppe.net/"
+
 - name: "David Wong"
   affiliation: "University of Leeds, UK"
-  homepage: "https://medicinehealth.leeds.ac.uk/medicine/staff/9808/dr-david-ong"
+  homepage: "https://medicinehealth.leeds.ac.uk/medicine/staff/9808/dr-david-wong"
 
-- name: "More PC members to be announced soon..."
-  affiliation: ""
-  homepage: ""
+- name: "Bowen Xi"
+  affiliation: "Arizona State University, USA"
+  homepage: "https://scholar.google.com/citations?hl=en&user=eGjWcMUAAAAJ&view_op=list_works&sortby=pubdate"
