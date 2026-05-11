@@ -6,6 +6,10 @@
   affiliation: "Australian National University, Australia"
   homepage: "https://comp.anu.edu.au/people/xiaoyu-ge/"
 
+- name: "Shufeng Kong"
+  affiliation: "Cornell University, USA"
+  homepage: "https://sk2299.github.io/"
+
 - name: "Yameng Guo"
   affiliation: "Ghent University, Belgium"
   homepage: "https://scholar.google.com/citations?hl=en&user=0ror4xoAAAAJ&view_op=list_works&sortby=pubdate"
@@ -41,5 +45,9 @@
 - name: "Bowen Xi"
   affiliation: "Arizona State University, USA"
   homepage: "https://scholar.google.com/citations?hl=en&user=eGjWcMUAAAAJ&view_op=list_works&sortby=pubdate"
+
+- name: "Peng Zhang"
+  affiliation: "Australian National University, Australia"
+  homepage: "https://dblp.org/pid/21/1048-21.html"
 
 
