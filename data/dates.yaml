@@ -1,6 +1,7 @@
 - label: "Workshop paper submission deadline"
   date: "May 24, 2026, 23:59"
-  struck: false
+  struck: true
+  newDate: "May 25, 2026, 23:59"
 - label: "Paper acceptance/rejection notification"
   date: "June 10, 2026, 23:59"
   struck: false
