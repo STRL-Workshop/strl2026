@@ -38,6 +38,16 @@
               <span class="schedule-title">{{ .title }}</span>
               {{ with .speaker }}<span class="schedule-speaker">{{ . }}</span>{{ end }}
               {{ with .details }}<span class="schedule-details">{{ . }}</span>{{ end }}
+              {{ with .papers }}
+              <ol class="schedule-papers">
+                {{ range . }}
+                <li>
+                  <span class="schedule-paper-title">{{ .title }}{{ if .remote }} <span class="schedule-paper-remote">(remote presentation)</span>{{ end }}</span>
+                  {{ with .authors }}<span class="schedule-paper-authors">{{ . }}</span>{{ end }}
+                </li>
+                {{ end }}
+              </ol>
+              {{ end }}
             </td>
           </tr>
           {{ end }}

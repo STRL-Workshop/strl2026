@@ -2,6 +2,8 @@ baseURL = "https://strl-workshop.github.io/strl2026/"
 languageCode = "en-us"
 title = "STRL 2026 — 5th International Workshop on Spatio-Temporal Reasoning and Learning"
 theme = "strl"
+# Keep source workbooks in `data/` without treating them as Hugo data files.
+ignoreFiles = ["\\.xlsx$"]
 
 [params]
   workshopName = "STRL 2026"
