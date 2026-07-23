@@ -2,6 +2,10 @@
   affiliation: "Simula Research Laboratory, Norway"
   homepage: "https://www.simula.no/people/nassim"
 
+- name: "Robert Blackwell"
+  affiliation: "University of Leeds, UK"
+  homepage: "https://robblackwell.com/"
+
 - name: "Xiaoyu Ge"
   affiliation: "Australian National University, Australia"
   homepage: "https://comp.anu.edu.au/people/xiaoyu-ge/"
@@ -21,10 +25,6 @@
 - name: "Kaustuv Mukherji"
   affiliation: "Syracuse University, USA"
   homepage: "https://scholar.google.com/citations?hl=en&user=9eYBKw0AAAAJ&view_op=list_works&sortby=pubdate"
-
-- name: "Jaikrishna M. Patil"
-  affiliation: "Syracuse University, USA"
-  homepage: "https://scholar.google.com/citations?hl=en&user=fu5vwWIAAAAJ&view_op=list_works&sortby=pubdate"
 
 - name: "Tanawan Premsri"
   affiliation: "Michigan State University, USA"
