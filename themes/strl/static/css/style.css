@@ -352,6 +352,38 @@ a:hover {
 }
 
 /* --- Topics --- */
+.cfp-closed-notice {
+  max-width: 720px;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.25rem;
+  color: var(--color-text-light);
+  background: var(--color-bg-card);
+  border-left: 3px solid var(--color-text-muted);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.cfp-details {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg-card);
+}
+
+.cfp-details summary {
+  padding: 1rem 1.25rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cfp-details-content {
+  padding: 0 1.25rem 1.25rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.cfp-details-content .subsection-title {
+  margin-top: 1.75rem;
+}
+
 .topics-intro {
   color: var(--color-text-light);
   margin-bottom: 1rem;
