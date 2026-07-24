@@ -3,6 +3,7 @@
   speaker: ""
   details: ""
   type: "talk"
+  label: false
 
 - time: "09:10 – 10:00"
   title: "Keynote 1"
@@ -72,7 +73,7 @@
   title: "Poster session and demos"
   speaker: ""
   details: ""
-  type: "talk"
+  type: "interactive"
 
 - time: "15:30 – 16:00"
   title: "Coffee break"
@@ -81,13 +82,14 @@
   type: "break"
 
 - time: "16:00 – 17:00"
-  title: "Panel discussion and open Q&A"
+  title: "Community Workshop: Interactive Session"
   speaker: ""
-  details: ""
-  type: "talk"
+  details: "Community building and roadmap discussion"
+  type: "interactive"
 
 - time: "17:00 – 17:30"
   title: "Wrap-up, takeaways, and community roadmap"
   speaker: ""
   details: ""
   type: "talk"
+  label: false

@@ -32,9 +32,12 @@
         </thead>
         <tbody>
           {{ range .Site.Data.schedule }}
-          <tr class="schedule-row schedule-{{ .type }}">
+          <tr class="schedule-row schedule-{{ .type }}{{ if eq .label false }} schedule-framing{{ end }}">
             <td class="schedule-time">{{ .time }}</td>
             <td class="schedule-activity">
+              {{ if eq .type "interactive" }}<span class="schedule-label schedule-label-interactive">Interactive</span>{{ end }}
+              {{ if eq .type "keynote" }}<span class="schedule-label schedule-label-keynote">Keynote</span>{{ end }}
+              {{ if and (eq .type "talk") (not (eq .label false)) }}<span class="schedule-label schedule-label-talk">Talk</span>{{ end }}
               <span class="schedule-title">{{ .title }}</span>
               {{ with .speaker }}<span class="schedule-speaker">{{ . }}</span>{{ end }}
               {{ with .details }}<span class="schedule-details">{{ . }}</span>{{ end }}
