@@ -6,7 +6,7 @@
   label: false
 
 - time: "09:10 – 10:00"
-  title: "Keynote 1"
+  title: "Keynote I: Title TBA"
   speaker: "Steven Schockaert"
   details: "40 min talk + 10 min Q&A"
   type: "keynote"
@@ -29,7 +29,7 @@
   type: "break"
 
 - time: "11:00 – 11:50"
-  title: "Keynote 2"
+  title: "Keynote II: Title TBA"
   speaker: "Speaker TBA"
   details: "40 min talk + 10 min Q&A"
   type: "keynote"
