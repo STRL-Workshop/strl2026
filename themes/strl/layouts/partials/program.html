@@ -46,7 +46,7 @@
                 {{ range . }}
                 <li>
                   <span class="schedule-paper-title">{{ .title }}{{ if .remote }} <span class="schedule-paper-remote">(remote presentation)</span>{{ end }}</span>
-                  {{ with .authors }}<span class="schedule-paper-authors">{{ . }}</span>{{ end }}
+                  {{ with .authors }}<span class="schedule-paper-authors"><span class="schedule-paper-authors-label">Authors:</span> {{ . }}</span>{{ end }}
                 </li>
                 {{ end }}
               </ol>
