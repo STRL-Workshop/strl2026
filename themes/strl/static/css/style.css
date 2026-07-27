@@ -993,6 +993,34 @@ a:hover {
    ======================================== */
 
 @media (max-width: 768px) {
+  .schedule-time {
+    width: 88px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    padding-right: 0.5rem;
+  }
+
+  .schedule-time-start {
+    display: block;
+  }
+
+  .schedule-time-separator {
+    display: inline;
+  }
+
+  .schedule-activity {
+    padding-left: 0.75rem;
+  }
+
+  .schedule-table th:first-child {
+    padding-right: 0.5rem;
+  }
+
+  .schedule-table th + th {
+    padding-left: 0.75rem;
+  }
+
   .nav-toggle {
     display: flex;
   }

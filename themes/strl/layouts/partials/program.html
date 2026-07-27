@@ -33,7 +33,14 @@
         <tbody>
           {{ range .Site.Data.schedule }}
           <tr class="schedule-row schedule-{{ .type }}{{ if eq .label false }} schedule-framing{{ end }}">
-            <td class="schedule-time">{{ .time }}</td>
+            <td class="schedule-time">
+              {{- $time := split .time " – " -}}
+              {{- if eq (len $time) 2 -}}
+              <span class="schedule-time-start">{{ index $time 0 }}</span><span class="schedule-time-separator"> – </span><span class="schedule-time-end">{{ index $time 1 }}</span>
+              {{- else -}}
+              {{ .time }}
+              {{- end -}}
+            </td>
             <td class="schedule-activity">
               {{ if eq .type "interactive" }}<span class="schedule-label schedule-label-interactive">Interactive</span>{{ end }}
               {{ if eq .type "keynote" }}<span class="schedule-label schedule-label-keynote">Keynote</span>{{ end }}
