@@ -28,13 +28,7 @@
   details: ""
   type: "break"
 
-- time: "11:00 – 11:50"
-  title: "Keynote II: Title TBA"
-  speaker: "Speaker TBA"
-  details: "40 min talk + 10 min Q&A"
-  type: "keynote"
-
-- time: "11:50 – 12:30"
+- time: "11:00 – 11:40"
   title: "Contributed Session II — Short talks"
   speaker: ""
   details: "5 presentations (5 min talk + 3 min Q&A each)"
@@ -52,13 +46,8 @@
       # remote: true
   type: "talk"
 
-- time: "12:30 – 14:00"
-  title: "Lunch break"
-  speaker: ""
-  details: ""
-  type: "break"
 
-- time: "14:00 – 14:30"
+- time: "11:40 – 12:00"
   title: "Poster lightning round"
   speaker: ""
   details: "2 confirmed poster lightning talks + up to 10 invited papers (TBA; 2 min each)"
@@ -69,8 +58,28 @@
       authors: "Maximilian Witte, Johannes Meuer, Étienne Plésiat, Christopher Kadow"
   type: "talk"
 
-- time: "14:30 – 15:30"
-  title: "Poster session and demos"
+- time: "12:00 – 12:30"
+  title: "Poster session I"
+  speaker: ""
+  details: ""
+  type: "interactive"
+
+
+- time: "12:30 – 14:00"
+  title: "Lunch break"
+  speaker: ""
+  details: ""
+  type: "break"
+
+- time: "14:00 – 14:50"
+  title: "Keynote II: Title TBA"
+  speaker: "Parisa Kordjamshidi"
+  details: "40 min talk + 10 min Q&A"
+  type: "keynote"
+
+
+- time: "14:50 – 15:30"
+  title: "Poster session II"
   speaker: ""
   details: ""
   type: "interactive"
