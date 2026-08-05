@@ -15,7 +15,7 @@ ignoreFiles = ["\\.xlsx$"]
   workshopVenueName = "University of Bremen"
   workshopVenueArea = "Zentralbereich"
   workshopVenueAddress = "Bibliothekstraße 1, 28359 Bremen"
-  venueDetailsURL = "https://2026.ijcai.org/venues/"
+  venueDetailsURL = "https://oracle-web.zfn.uni-bremen.de/web/lageplan?haus=GW2&raum=B1410&pi_anz=0"
   campusMapURL = "https://www.uni-bremen.de/en/university/campus/campus-map"
   contactEmail = "jae.hee.lee@uni-hamburg.de"
   submissionURL = "https://chairingtool.com/conferences/strl2026/main-track?role=author"
