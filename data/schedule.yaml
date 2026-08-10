@@ -6,13 +6,13 @@
   label: false
 
 - time: "09:10 – 10:00"
-  title: "Keynote I: Title TBA"
+  title: "Systematic Relational Reasoning with Graph Neural Networks"
   speaker: "Steven Schockaert"
   details: "40 min talk + 10 min Q&A"
   type: "keynote"
 
 - time: "10:00 – 10:30"
-  title: "Contributed Session I — Long talks"
+  title: "Long talks"
   speaker: ""
   details: "2 presentations (10 min talk + 5 min Q&A each)"
   papers:
@@ -29,7 +29,7 @@
   type: "break"
 
 - time: "11:00 – 11:40"
-  title: "Contributed Session II — Short talks"
+  title: "Short talks"
   speaker: ""
   details: "5 presentations (5 min talk + 3 min Q&A each)"
   papers:
