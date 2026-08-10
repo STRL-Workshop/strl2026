@@ -50,39 +50,45 @@
 - time: "11:40 – 12:00"
   title: "Poster lightning round"
   speaker: ""
-  details: "2 confirmed poster lightning talks + up to 10 invited papers (TBA; 2 min each)"
+  details: "2 confirmed poster lightning talks (2 min each + 2 min Q&A)"
   papers:
     - title: "Learning Long-Range Memory for Decadal Ocean Prediction with Neural Forecasting"
       authors: "Felix Meyer, Christopher Kadow, Johanna Baehr"
     - title: "Field-Space Attention for Spatio-Temporal Field Learning"
       authors: "Maximilian Witte, Johannes Meuer, Étienne Plésiat, Christopher Kadow"
+    - title: "Spatial Pattern Matching: A Survey (Invited Paper)"
+      authors: "Nicole R. Schneider, Kent O'Sullivan, Hanan Samet"
+    - title: "On Vision Foundation Models for Commonsense Visuospatial Sensemaking (Doctoral Consortium)"
+      authors: "Salim Baloch"
+    - title: "TBA (Doctoral Consortium)"
+      authors: "Martí Ejarque"
   type: "talk"
 
-- time: "12:00 – 12:30"
-  title: "Poster session I"
+- time: "12:00 – 13:00"
+  title: "Poster session"
   speaker: ""
   details: ""
   type: "interactive"
 
 
-- time: "12:30 – 14:00"
+- time: "13:00 – 14:30"
   title: "Lunch break"
   speaker: ""
   details: ""
   type: "break"
 
-- time: "14:00 – 14:50"
+- time: "14:30 – 15:20"
   title: "Keynote II: Title TBA"
   speaker: "Parisa Kordjamshidi"
   details: "40 min talk + 10 min Q&A"
   type: "keynote"
 
-
-- time: "14:50 – 15:30"
-  title: "Poster session II"
+- time: "15:20 – 15:30"
+  title: "Community Workshop: Interactive Session"
   speaker: ""
-  details: ""
+  details: "Community building and roadmap discussion"
   type: "interactive"
+
 
 - time: "15:30 – 16:00"
   title: "Coffee break"
@@ -91,7 +97,7 @@
   type: "break"
 
 - time: "16:00 – 17:15"
-  title: "Community Workshop: Interactive Session"
+  title: "Community Workshop: Interactive Session (continued)"
   speaker: ""
   details: "Community building and roadmap discussion"
   type: "interactive"
