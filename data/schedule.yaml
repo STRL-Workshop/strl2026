@@ -41,9 +41,10 @@
       authors: "Nico Heider, Michał Włodarczyk, Katarzyna Wasielewska-Michniewska, Przemysław Hołda, Martin Schieck, Marcin Paprzycki, Maria Ganzha, Bogdan Franczyk"
     - title: "A Spatio-Temporal Digital Twin for Reasoning About Emergency Medical Service Dispatch"
       authors: "Gerrit Großmann, lougine Atef Shalaby"
+      remote: true
     - title: "Unraveling Time: A Study of the Temporal Reasoning Abilities of LLMs"
       authors: "Maria Tsourma, Anastasios Drosou, Dimitrios Tzovaras, Manolis Koubarakis"
-      # remote: true
+      remote: true
   type: "talk"
 
 
@@ -56,12 +57,12 @@
       authors: "Felix Meyer, Christopher Kadow, Johanna Baehr"
     - title: "Field-Space Attention for Spatio-Temporal Field Learning"
       authors: "Maximilian Witte, Johannes Meuer, Étienne Plésiat, Christopher Kadow"
-    - title: "Spatial Pattern Matching: A Survey (Invited Paper)"
+    - title: "Spatial Pattern Matching: A Survey"
+      note: "Invited Paper"
       authors: "Nicole R. Schneider, Kent O'Sullivan, Hanan Samet"
-    - title: "On Vision Foundation Models for Commonsense Visuospatial Sensemaking (Doctoral Consortium)"
+    - title: "On Vision Foundation Models for Commonsense Visuospatial Sensemaking"
+      note: "Doctoral Consortium"
       authors: "Salim Baloch"
-    - title: "TBA (Doctoral Consortium)"
-      authors: "Martí Ejarque"
   type: "talk"
 
 - time: "12:00 – 13:00"
