@@ -52,7 +52,7 @@
               <ol class="schedule-papers">
                 {{ range . }}
                 <li>
-                  <span class="schedule-paper-title">{{ .title }}{{ with .note }} <span class="schedule-paper-remote">({{ . }})</span>{{ end }}{{ if .remote }} <span class="schedule-paper-remote">(remote presentation)</span>{{ end }}</span>
+                  <span class="schedule-paper-title">{{ .title }}{{ with .pdf }} <a class="schedule-paper-pdf" href="{{ . }}">PDF</a>{{ end }}{{ with .note }} <span class="schedule-paper-remote">({{ . }})</span>{{ end }}{{ if .remote }} <span class="schedule-paper-remote">(remote presentation)</span>{{ end }}</span>
                   {{ with .authors }}<span class="schedule-paper-authors"><span class="schedule-paper-authors-label">Authors:</span> {{ . }}</span>{{ end }}
                 </li>
                 {{ end }}
